@@ -3,7 +3,9 @@ import axios from "axios";
 
 export const productsContext = React.createContext();
 
-const API = "http://localhost:8001/data";
+// const API = "http://localhost:8001/data";
+
+const API = "https://makers-deploy-alfiya.herokuapp.com/data"
 
 const INIT_STATE = {
   products: [],
